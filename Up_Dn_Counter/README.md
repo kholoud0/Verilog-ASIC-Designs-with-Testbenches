@@ -1,1 +1,2 @@
-5-bit counter in Verilog with load, increment, and decrement functionalities. Includes flags for high and low count values, and a testbench with multiple test cases.
+5-bit counter in Verilog with signal priorities: Load has highest priority, followed by Down, and then Up. Includes flags for high (31) and low (0) count values. Testbench with multiple test cases provided.
+
