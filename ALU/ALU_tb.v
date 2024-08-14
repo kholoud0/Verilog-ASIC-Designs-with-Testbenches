@@ -1,4 +1,5 @@
- module ALU_tb();
+`timescale 1ns/1ps
+module ALU_tb();
 
 reg [15:0]    A_tb, B_tb;
 reg [3:0]    ALU_FUN_tb;
@@ -26,6 +27,8 @@ ALU DUT (
 );
 
 initial begin
+  $dumpfile("alu_waveform.vcd");  // Specify the VCD file name
+  $dumpvars(0, ALU_tb);            // Dump all variables in the scope of ALU_tb
   
   A_tb = 16'b00;
   B_tb = 16'b00 ;
