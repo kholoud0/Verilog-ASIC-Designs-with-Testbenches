@@ -1,3 +1,6 @@
+## Block Diagram
+
+![image](https://github.com/user-attachments/assets/9d028f2d-413e-48e6-adde-738ee6d691cc)
 
 
 ## ALU_FUNC Table
