@@ -1,3 +1,13 @@
+<h1>16_Bit_Signed_Alu</h1>
+ implementation of a 16-bit ALU, a critical component of a processor. The ALU_TOP module is responsible for executing various operations, including:
+
+- Signed Arithmetic functions via the ARITHMETIC_UNIT block.
+- Logic functions via the LOGIC_UNIT block.
+- Shift functions via the SHIFT_UNIT block.
+- Comparison functions via the CMP_UNIT block.
+- A Decoder Unit controls which function is enabled based on the most significant 2 bits of the ALU_FUNC control bus (ALU_FUNC[3:2]).
+
+
 ## Block Diagram
 
 ![image](https://github.com/user-attachments/assets/9d028f2d-413e-48e6-adde-738ee6d691cc)
