@@ -5,7 +5,7 @@
 - Logic functions via the LOGIC_UNIT block.
 - Shift functions via the SHIFT_UNIT block.
 - Comparison functions via the CMP_UNIT block.
-- A Decoder Unit controls which function is enabled based on the most significant 2 bits of the ALU_FUNC control bus (ALU_FUNC[3:2]).
+A Decoder Unit controls which function is enabled based on the most significant 2 bits of the ALU_FUNC control bus (ALU_FUNC[3:2]).
 
 
 ## Block Diagram
