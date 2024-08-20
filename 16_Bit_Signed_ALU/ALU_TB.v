@@ -365,6 +365,7 @@ initial begin
   ALU_FUN_tb = 4'b0011;
   A_tb = 'd4;
   B_tb = 'd5;
+  rst_tb = 1'b0;
   #2
   if(( Arith_OUT_tb == 'b0)&& (Arith_Flag_tb == 0)&&(Logic_Out_tb == 'b0) && (Logic_Flag_tb==0 ) &&(CMP_Out_tb == 'b0)&& (CMP_Flag_tb==0 ) &&(Shift_Out_tb == 'b0)&& (Shift_Flag_tb==0 )) 
     $display(" TEST PASSED \n");
