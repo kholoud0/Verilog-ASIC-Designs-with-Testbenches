@@ -12,7 +12,7 @@ UART (Universal Asynchronous Receiver/Transmitter) is a widely-used serial commu
 |-----------|-------|---------------------------------|
 | CLK       | 1     | UART RX Clock Signal            |
 | RST       | 1     | Synchronized Reset Signal       |
-| PAR_TYP   | 1     | Parity Type (0: Even, 1: Odd)   |
+| PAR_TYP   | 1     | Parity Type (1: Even, 0: Odd)   |
 | PAR_EN    | 1     | Parity Enable (0: Disable, 1: Enable) |
 | Prescale  | 6     | Oversampling Prescale           |
 | RX_IN     | 1     | Serial Data Input               |
