@@ -4,6 +4,7 @@
 ## Introduction
 
 UART (Universal Asynchronous Receiver/Transmitter) is a widely-used serial communication protocol. It's a full-duplex protocol, allowing simultaneous data transmission and reception. The UART RX module converts serial data into parallel form for the receiving device. It also includes error detection via parity and stop bit checks.
+![image](https://github.com/user-attachments/assets/6713f77b-4984-4dbb-8be6-8c1de97b847d)
 
 ## Block Interface
 
