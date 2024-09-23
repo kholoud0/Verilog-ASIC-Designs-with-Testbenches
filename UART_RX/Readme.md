@@ -52,8 +52,3 @@ UART (Universal Asynchronous Receiver/Transmitter) is a widely-used serial commu
   - **Prescale = 16**: RX_CLK = TX_CLK * 16 = 1.843 MHz
   - **Prescale = 32**: RX_CLK = TX_CLK * 32 = 3.686 MHz
 
-## Requirements
-
-- Implement UART RX in Verilog.
-- Validate with a testbench at TX_CLK = 115.2 KHz.
-
