@@ -56,6 +56,3 @@ UART (Universal Asynchronous Receiver/Transmitter) is a widely-used serial commu
 - Implement UART RX in Verilog.
 - Validate with a testbench at TX_CLK = 115.2 KHz.
 
---- 
-
-This README provides an overview of the UART RX module and its design specifications in a clean and readable format. Let me know if you need further modifications!
