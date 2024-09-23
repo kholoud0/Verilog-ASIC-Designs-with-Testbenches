@@ -52,22 +52,4 @@ UART (Universal Asynchronous Receiver/Transmitter) is a widely-used serial commu
    - 8 Data Bits (LSB or MSB first)
    - 1 Stop Bit
 
-## Folder Contents
-
-This folder contains the Verilog implementation and testbench for the UART TX module:
-
-- `DATA_SAMPLING.v`
-- `DESERIALIZER.v`
-- `EDGE_BIT_COUNTER.v`
-- `FSM.v`
-- `PARITY_CHECK.v`
-- `START_CHECK.v`
-- `STOP_CHECK.v`
-- `UART_TX.v` (Top-level design)
-- `TX_TB.v` (Testbench for validation)
-
-## Requirements
-
-1. Implement the UART TX module in Verilog based on the given specifications.
-2. Validate the design with a testbench using a clock frequency of 200 MHz.
 
