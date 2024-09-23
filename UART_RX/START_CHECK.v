@@ -1,4 +1,4 @@
-module STOP_CHECK(
+module STRT_CHECK(
     input       CLK,
     input       RST,
     input       strt_chk_en,
@@ -25,4 +25,5 @@ end
 
 
 endmodule
+
 

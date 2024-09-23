@@ -3,7 +3,7 @@ module EDGE_BIT_COUNTER(
     input           RST,
     input           enable,
     input   [5:0]   Prescale,
-    output  reg  [7:0]   bit_cnt,
+    output  reg  [3:0]   bit_cnt,
     output  reg  [5 :0]   edge_cnt
 );
 always @(posedge CLK or negedge RST ) begin
@@ -12,7 +12,7 @@ always @(posedge CLK or negedge RST ) begin
         bit_cnt <= 'd0;
     end
     else if (enable) begin
-        if (edge_cnt== Prescale-1) begin
+        if (edge_cnt>= Prescale-1) begin
             edge_cnt <= 'd0;
             bit_cnt <= bit_cnt +1;
         end
