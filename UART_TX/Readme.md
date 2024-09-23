@@ -4,6 +4,7 @@
 ## Introduction
 
 UART (Universal Asynchronous Receiver/Transmitter) is a widely-used serial communication protocol, commonly used alongside protocols like I2C and SPI. It enables full-duplex communication, meaning data can be transmitted and received simultaneously. The UART TX module converts parallel data from the master device (e.g., CPU) into serial form for transmission to the UART RX module.
+![image](https://github.com/user-attachments/assets/6713f77b-4984-4dbb-8be6-8c1de97b847d)
 
 ## Block Interface
 
